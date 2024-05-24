@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+header input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+}
+
+nav ul li {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+#resultados-busqueda, #detalle {
+    margin-top: 20px;
+}
